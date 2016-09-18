@@ -1,0 +1,26 @@
+{
+    "name": "dantleech/uri-parser-bencharks",
+    "description": "URL parser benchmarks",
+    "authors": [
+        {
+            "name": "dantleech",
+            "email": "dan.t.leech@gmail.com"
+        }
+    ],
+    "require": {
+        "pear/net_url2": "~2.0",
+        "zendframework/zend-uri": "~2.5",
+        "league/uri": "~4.0",
+        "windwalker/uri": "~3.0",
+        "vdb/uri": "^0.2.0",
+        "aura/uri": "^1.2"
+    },
+    "require-dev": {
+        "phpbench/phpbench": "~0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpBench\\Benchmarks\\": "benchmarks"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "bootstrap": "vendor/autoload.php",
+    "reports": {
+        "uri_compare": {
+            "extends": "aggregate",
+            "compare": "benchmark",
+            "compare_fields": [ "mode" ],
+            "cols": [ "subject" ],
+            "labels": [ "Subject", "VDB", "Aura", "NetUrl", "ZendUri", "League", "Windwalker" ]
+        },
+        "uri_aggregate": {
+            "extends": "aggregate",
+            "cols": [ "benchmark", "subject", "mem_peak", "best", "mean", "mode", "worst", "rstdev", "diff" ],
+            "break": ["subject"]
+        }
+    }
+}
