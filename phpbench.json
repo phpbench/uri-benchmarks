@@ -1,4 +1,5 @@
 {
+    "path": "benchmarks",
     "bootstrap": "vendor/autoload.php",
     "reports": {
         "uri_compare": {
