@@ -8,6 +8,6 @@ class NetUrl2Bench extends AbstractBench
 {
     public function benchCreateValueObject()
     {
-        $url = new Net_URL2($this->getUrlString());
+        new Net_URL2($this->getUrlString());
     }
 }

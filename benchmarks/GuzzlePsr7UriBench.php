@@ -2,14 +2,12 @@
 
 namespace PhpBench\Benchmarks;
 
-use Windwalker\Uri\Uri;
+use GuzzleHttp\Psr7\Uri;
 
-
-class WindwalkerUriBench extends AbstractBench
+class GuzzlePsr7UriBench extends AbstractBench
 {
     public function benchCreateValueObject()
     {
         new Uri($this->getUrlString());
     }
 }
-

@@ -8,6 +8,6 @@ class ZendUriBench extends AbstractBench
 {
     public function benchCreateValueObject()
     {
-        $uri = new Uri($this->getUrlString());
+        new Uri($this->getUrlString());
     }
 }

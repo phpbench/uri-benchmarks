@@ -2,14 +2,12 @@
 
 namespace PhpBench\Benchmarks;
 
-use Windwalker\Uri\Uri;
+use Zend\Diactoros\Uri;
 
-
-class WindwalkerUriBench extends AbstractBench
+class DiactorosUriBench extends AbstractBench
 {
     public function benchCreateValueObject()
     {
         new Uri($this->getUrlString());
     }
 }
-
