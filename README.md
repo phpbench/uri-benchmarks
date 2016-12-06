@@ -1,6 +1,8 @@
 Uri Value Object Benchmarks
 ===========================
 
+[![Build Status](https://travis-ci.org/phpbench/uri-benchmarks.svg?branch=master)](https://travis-ci.org/phpbench/uri-benchmarks)
+
 Benchmarking suite for instantiating URI Value Objects.
 
 Results
