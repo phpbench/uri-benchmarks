@@ -8,8 +8,6 @@ class LeagueUriBench extends AbstractBench
 {
     public function benchCreateValueObject()
     {
-        $uri = Http::createFromString($this->getUrlString());
-        $uri->getScheme();
-        $uri->getAuthority();
+        Http::createFromComponents(parse_url($this->getUrlString()));
     }
 }

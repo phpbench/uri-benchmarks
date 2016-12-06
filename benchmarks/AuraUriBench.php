@@ -17,6 +17,6 @@ class AuraUriBench extends AbstractBench
 
     public function benchCreateValueObject()
     {
-        $url = $this->factory->newInstance($this->getUrlString());
+        $this->factory->newInstance($this->getUrlString());
     }
 }
