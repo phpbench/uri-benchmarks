@@ -7,7 +7,7 @@
             "compare": "benchmark",
             "compare_fields": [ "mode" ],
             "cols": [ "subject" ],
-            "labels": [ "Subject", "VDB", "Aura", "Dicrators", "NetUrl", "ZendUri", "League", "Guzzle", "Slime", "Windwalker" ]
+            "labels": [ "Subject", "VDB", "Aura", "Diactoros", "NetUrl", "ZendUri", "League", "Guzzle", "Slim", "Windwalker" ]
         },
         "uri_aggregate": {
             "extends": "aggregate",
